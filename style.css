@@ -1,0 +1,203 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+body {
+	background-color: #787878;
+	font-family: 'Lato', sans-serif;
+}
+header {
+	background-color: white;
+	margin: 0 auto;
+	width: 1000px;
+}
+	.title{
+		float: left;
+		padding: 45px 0 0 20px;
+	}
+		.red{
+			font-size: 33px;
+			color: #ff0000;
+			font-weight: bold;
+		}
+		.gray {
+			font-size: 18px;
+			color: #787878;
+
+		}
+
+
+	.engine {
+		text-align: right;
+		padding: 40px 20px 35px 0;
+	}
+		.engine a {text-decoration: none; color: #787878; }
+		.topmenu li {
+			display:inline-block;
+		}
+			.topmenu a {
+				padding: 0 5px 0 5px;
+				font-size: 11px;
+			}
+		.menu{
+			font-size: 18px;
+		}
+			.menu a {padding: 0 9px 0 9px; font-size: 18px;}
+				.menu a:last-child{padding-right: 0}
+
+			.position {
+				color: #303132;
+				font-weight: 700;
+				
+			}
+
+
+
+/* contaaaaaaaaaaaaaainer */
+
+
+
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+	background-image: url('images/bg.jpg');
+	background-repeat: no-repeat;
+
+}
+	.main {
+		padding:60px 20px 60px 20px;
+	}
+	.box {
+		display: inline-block;
+	}
+	.imgmenu1, .imgmenu2, .imgmenu3, .imgmenu4 {
+		width: 220px;
+		height: 300px;
+		display: inline-block;
+		margin-right: 20px;
+		vertical-align: top;
+
+	}
+		h3 {
+			font-size: 34px;
+			color: white;
+			margin: 22px 16px 22px 16px;
+			font-weight: 400;
+		}
+			h6 {
+				top: 87%;
+				margin-left: 143px;
+				font-size: 12px;
+				color: #ccc;
+				font-weight: 400;
+			}
+		.imgmenu1 {
+			background-image: url('images/post-1.jpg');
+			background-size: cover;
+		}
+
+		.imgmenu2 {
+			background-image: url('images/post-2.jpg');
+			background-size: cover;
+
+		}
+
+		.imgmenu3 {
+			background-image: url('images/post-3.jpg');
+			background-size: cover;
+
+		}
+
+		.imgmenu4 {
+			background-image: url('images/post-4.jpg');
+			background-size: cover;
+			margin-right: 0;
+
+		}
+
+
+
+/*             intro       */
+
+
+.intro {
+	text-align: center;
+	color: #fff;
+	
+	margin: 0 20px 100px 20px;
+}
+	h1{
+		margin: 30px 0;
+		font-size: 34px;
+		font-weight: 400;
+	}
+	.intro p {
+		font-size: 18px;
+		color: #c2c2c2;
+		font-weight: 400;
+	}
+	
+
+
+
+/*          fooooooooooooooooooooooooter */
+
+
+
+footer{
+	padding: 5px 20px 160px 20px;
+}
+	.fleft, .fright{
+		display: inline-block;
+		color: #c2c2c2;
+		font-size: 11px;
+
+	}
+	.fleft {
+		float: left;
+	}
+	.fright {
+		text-align: right;
+		float: right;
+		vertical-align: top;
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* form bljäääääääääääääääääät */
+
+
+
+form {
+	margin: 10px 8px;
+}
+	input {
+		padding: 4px 0px 4px 0;
+		margin-top: 2px;
+		border: none;
+		border-bottom: 1px solid #cccccc;
+	}
+	.searchbtn {
+		background-image: url(images/luup.png);
+		width: 15px;
+		height:16px;
+		border: none;
+		position: absolute;
+		margin-top: -20px;
+		margin-left: -16px;
+	}
+
+

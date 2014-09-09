@@ -1,0 +1,210 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+body {
+	background-color: #787878;
+	font-family: 'Lato', sans-serif;
+}
+header {
+	background-color: white;
+	margin: 0 auto;
+	width: 1000px;
+}
+	.title{
+		float: left;
+		padding: 45px 0 0 20px;
+	}
+		.red{
+			font-size: 33px;
+			color: #ff0000;
+			font-weight: bold;
+		}
+		.gray {
+			font-size: 18px;
+			color: #787878;
+
+		}
+
+
+	.engine {
+		text-align: right;
+		padding: 40px 20px 35px 0;
+	}
+		.engine a {text-decoration: none; color: #787878; }
+		.topmenu li {
+			display:inline-block;
+		}
+			.topmenu a {
+				padding: 0 5px 0 5px;
+				font-size: 11px;
+			}
+		.menu{
+			font-size: 18px;
+		}
+			.menu a {padding: 0 9px 0 9px; font-size: 18px;}
+				.menu a:last-child{padding-right: 0}
+
+			.position {
+				color: #303132;
+				font-weight: 700;
+				
+			}
+
+
+
+/* contaaaaaaaaaaaaaainer */
+
+
+
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+	background-image: url('../images/bg.jpg');
+	background-repeat: no-repeat;
+
+}
+	.main {
+		padding:30px 20px 60px 20px;
+	}
+		.menu2 li{
+			display: inline-block;
+			margin-right: 18px;
+			margin-bottom: 30px;
+		}
+			.menu2 a {
+				color: #c2c2c2;
+				font-size: 14px;
+				text-decoration: none;
+			}
+			.menu2 .position2 {
+				color: #fff;
+				font-weight: 700;
+				
+			}
+
+	.kolm { background-color: rgba(204, 204, 204, 0.2);
+			padding: 8px 0 12px 0;
+			border-radius: 2px;
+			text-align: center;
+
+	}
+	.kolm li {
+		display:inline-block;
+		
+	}
+		.kolm a {
+
+				color: #c2c2c2;
+				font-size: 12px;
+				text-decoration: none;
+				padding-right: 15px;
+		}
+
+
+			.kolm .position3 {
+				color: #fff;
+				font-weight: 700;
+				
+			}
+
+/*             intro       */
+
+
+.intro {
+	text-align: center;
+	color: #fff;
+	width:640px;
+	margin: 0 auto;
+
+	
+}
+	h1{
+		margin: 0 0 30px 0;
+		font-size: 34px;
+		font-weight: 400;
+	}
+	.intro p {
+		font-size: 14px;
+		color: #c2c2c2;
+		font-weight: 400;
+		text-align: justify;
+		margin-bottom: 80px;
+	}
+	h3 {
+		font-size: 16px;
+		margin: 20px 0;
+		font-weight: 400;
+		text-align: left;
+	}
+	.subh {
+		text-align: left;
+		margin-left: 30px;
+		margin-bottom: 30px;
+		font-size: 14px;
+
+	}
+
+
+
+/*          fooooooooooooooooooooooooter */
+
+
+
+footer{
+	padding: 5px 20px 160px 20px;
+}
+	.fleft, .fright{
+		display: inline-block;
+		color: #c2c2c2;
+		font-size: 11px;
+
+	}
+	.fleft {
+		float: left;
+	}
+	.fright {
+		text-align: right;
+		float: right;
+		vertical-align: top;
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* form bljäääääääääääääääääät */
+
+
+
+form {
+	margin: 10px 8px;
+}
+	input {
+		padding: 4px 0px 4px 0;
+		margin-top: 2px;
+		border: none;
+		border-bottom: 1px solid #cccccc;
+	}
+	.searchbtn {
+		background-image: url(../images/luup.png);
+		width: 15px;
+		height:16px;
+		border: none;
+		position: absolute;
+		margin-top: -20px;
+		margin-left: -16px;
+	}
+
+
